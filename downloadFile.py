@@ -38,3 +38,4 @@ def download_file(url: str, name: str) -> None:
 
         with open(name, "w") as file:
             file.write(request.text)
+            print("File downloaded...")

@@ -48,9 +48,12 @@ def download_file(url:str, name:str)->None:
 
         with open(name, "w") as file:
             file.write(request.text)
+            print("File downloaded...")
             
 ```
 
 Copy the above function and paste it in your colab notebook and use it to download the helper function from this repo or any other repo.
 
 Checkout `downloadFile.py` for raw function code.
+
+**Note**: My indentation may be different then yours so please make sure to correct it before using it.
