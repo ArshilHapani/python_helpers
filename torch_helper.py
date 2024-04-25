@@ -1,5 +1,5 @@
 """
-This file contains basics helper function for pyTorch models (e.g. conversion of numpy arrays to tensors, building out training and testing loops, etc.)
+This file contains basics helper function for pyTorch models used by colab NB (e.g. conversion of numpy arrays to tensors, building out training and testing loops, etc.)
 """
 
 
