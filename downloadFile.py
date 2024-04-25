@@ -1,19 +1,9 @@
-# Machine Learning Python Helpers
 
-This repository contains a collection of helper functions for machine learning tasks. These functions are designed to assist in automating common tasks and streamlining the machine learning workflow.
-
-
-## Installation
-
-To use these helper functions in your own projects, you can clone this repository using the following command:
-
-## Helper function for downloading function directly into colab
-```py
-# download helper function from remote repo if it's not already downloaded
-import requests
-from pathlib import Path
 import re
+from pathlib import Path
+import requests
 
+# download helper function from remote repo if it's not already downloaded
 
 
 def download_file(url, name):
@@ -48,9 +38,3 @@ def download_file(url, name):
 
         with open(name, "w") as file:
             file.write(request.text)
-            
-```
-
-Copy the above function and paste it in your colab notebook and use it to download the helper function from this repo or any other repo.
-
-Checkout `downloadFile.py` for raw function code.
