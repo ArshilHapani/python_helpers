@@ -16,7 +16,7 @@ import re
 
 
 
-def download_file(url, name):
+def download_file(url:str, name:str)->None:
     """
     Downloads a file from a raw GitHub URL if the file does not already exist.
 
