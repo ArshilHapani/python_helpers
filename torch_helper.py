@@ -20,7 +20,6 @@ def to_cpu(tensor):
 
 
 def training_testing_loop_classification_model(model, loss_fn, optimizer, epochs, X_train, y_train, X_test, y_test, printStep=100):
-
     for epoch in range(epochs):
         # training
         model.train()
