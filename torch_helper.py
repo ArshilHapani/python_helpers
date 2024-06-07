@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 from sklearn.metrics import accuracy_score
-
+from timeit import default_timer as timer
 
 def to_tensor(arr):
     """
@@ -134,3 +134,10 @@ def plot_decision_boundary(model: torch.nn.Module, X: torch.Tensor, y: torch.Ten
     plt.scatter(X[:, 0], X[:, 1], c=y, s=40, cmap=plt.cm.RdYlBu)
     plt.xlim(xx.min(), xx.max())
     plt.ylim(yy.min(), yy.max())
+
+
+def print_train_time(start:float,end:float,device:torch.device=None):
+  """Prints the difference between start and end time"""
+  total_time = end - start
+  print(f"Train time on {device}: {total_time:.3f} seconds")
+  return total_time
