@@ -12,7 +12,7 @@ To use these helper functions in your own projects, you can clone this repositor
 # download helper function from remote repo if it's not already downloaded
 import requests
 from pathlib import Path
-import re
+import re # for regular expression pattern matching in url
 
 
 
