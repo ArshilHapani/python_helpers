@@ -65,3 +65,11 @@ Checkout `downloadFile.py` for raw function code.
 - training_testing_loop_classification_model
 - plot_decision_boundary
 - print_train_time
+
+
+# Sample csv files
+
+To access sample csv file raw
+- open any csv file within [csv]("./csv") dir
+- right click on raw and then copy the link address.
+- you are ready to go use that link address in `download_file` function (not you need to modify the function by removing first two if clauses)
