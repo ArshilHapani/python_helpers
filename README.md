@@ -70,6 +70,6 @@ Checkout `downloadFile.py` for raw function code.
 # Sample csv files
 
 To access sample csv file raw
-- open any csv file within [csv]("https://github.com/ArshilHapani/python_helpers/tree/master/csv") dir
+- open any csv file within [csv](https://github.com/ArshilHapani/python_helpers/tree/master/csv) dir
 - right click on raw and then copy the link address.
 - you are ready to go use that link address in `download_file` function (not you need to modify the function by removing first two if clauses)
